@@ -7,7 +7,7 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://dummy-chat-client.onrender.com",
   })
 );
 dotenv.config();
